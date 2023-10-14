@@ -1,0 +1,23 @@
+$prim_color: #7a021e;
+
+.menu{
+    width: 100%;
+    height: 6em;
+
+    background-color: $prim_color;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 100%;
+}
+
+.button{
+    border-radius: 10px;
+    background: #e0e0e0;
+    box-shadow:  7px 27px 54px #bebebe,
+                -27px -27px 54px #ffffff;
+}
